@@ -10,17 +10,23 @@ body{
     display: flex;
     flex-direction: column;
     color: rgb(83, 5, 13);
+    gap: 20px;
 }
 
 .header{
     display: flex;
     background-image: linear-gradient(rgb(253, 242, 242),  rgb(253, 242, 242), rgb(253, 242, 242),  rgb(253, 242, 242));
-    padding: 3%;
+    align-items: center;
+    padding: 2%;
 }
 .header-logo{
     flex: auto;
     margin-left: auto;
     cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 .header-links{
     margin-right: auto;
@@ -107,6 +113,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 600px;
     gap: 20px;
 }
 .image-random{
@@ -134,4 +141,41 @@ body{
 .quoter{
     margin-top: 20px;
     font-weight: 600;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    background-color: rgb(83, 5, 13);
+    color:rgb(253, 242, 242);
+    width: 40%;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.text-signup{
+    padding: 30px;
+    flex: 2;
+    flex-wrap: wrap;
+}
+.buttons{
+    flex: 1;
+    padding: 0;
+    background-color: rgb(223, 208, 208);
+    color: rgb(83, 5, 13);
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.buttons:hover{
+    background-color: rgb(184, 169, 169);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 5, 13);
+    color:rgb(253, 242, 242);
+    padding: 20px;
 }
