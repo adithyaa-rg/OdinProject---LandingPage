@@ -101,19 +101,21 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4%;
+    padding: 5%;
     gap: 20px;
 }
 .illustrations{
     width: 100%;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .image-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
+    max-width: 260px;
+    width: 260px;
     gap: 20px;
 }
 .image-random{
@@ -146,16 +148,20 @@ body{
 .sign-up{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
     background-color: rgb(83, 5, 13);
     color:rgb(253, 242, 242);
     width: 40%;
     border-radius: 10px;
     padding-right: 30px;
+    flex-wrap: wrap;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .text-signup{
-    padding: 30px;
     flex: 2;
-    flex-wrap: wrap;
 }
 .buttons{
     flex: 1;
